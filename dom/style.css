@@ -1,0 +1,39 @@
+:root{
+    --primary-color : rgb(65, 135, 241);
+    --secondary-color: rgb(31, 30, 30);
+    --third-color: white;
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+div{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    font-weight: 700;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: clamp(.7rem,2vw,1rem);
+    transition: .3s;
+   
+}
+
+
+
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+

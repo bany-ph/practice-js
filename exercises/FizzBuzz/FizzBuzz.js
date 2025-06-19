@@ -1,7 +1,7 @@
 const newElement = (output, isFizzBuzz) =>{
     
     let p = document.createElement("p");
-    p.innerHTML = output;
+    p.textContent = output;
     (isFizzBuzz == true) ? p.className = "fizz-buzz" : p.className = "numbers";
     document.getElementById("div").appendChild(p) // create the <p> inside the div
     

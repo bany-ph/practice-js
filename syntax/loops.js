@@ -11,7 +11,7 @@ for(const name of names){
 
 /* FOR IN */
 
-const persona = {
+const persona = { 
 userName: "bany",
 age: 18,
 city: "Medellin",

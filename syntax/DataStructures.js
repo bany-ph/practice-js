@@ -15,7 +15,7 @@ const persona = {
 /* desestructurar objetos */
 const {userName,age,city, active = false} = persona //active is a default var in case it doesn't exist
 const {one,two,three} = persona.skills
-
+console.log(Object.values(persona))
 
 /* console.log(userName);
 console.log(age);
@@ -37,7 +37,7 @@ console.log(one) */
 /* --------- SETS  ------------ */
 
 
-const numbers = new Set([1,2,3,3,4]);
+const numbers = new Set([1,2,3,3,4]); 
 
     numbers.add(5);
     numbers.delete(3) // delete all the 3
@@ -70,5 +70,5 @@ colors.push("azul")
 // console.log(colors[1]);
 // console.log(colors);
 const numbers2 = [1,2,3,4,5];
-console.log(numbers2.filter(num => num > 2))
-console.log(numbers2.find(num => num == 2))
+// console.log(numbers2.filter(num => num > 2))
+// console.log(numbers2.find(num => num == 2))
